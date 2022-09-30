@@ -19,6 +19,12 @@ public class BallController : MonoBehaviour
 
     private Color solveColor;
 
+
+    private  AudioSource playerAudio;
+    
+
+
+
     private void Start()
     {
         solveColor = Random.ColorHSV(0.5f, 1);
